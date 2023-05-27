@@ -39,7 +39,8 @@ function today() {
 
     let currentTime = `${today.getHours() < 9 ? '0' + today.getHours() : today.getHours()} : ${today.getMinutes() < 9 ? '0' + today.getMinutes() : today.getMinutes()} : ${today.getSeconds() < 9 ? '0' + today.getSeconds() : today.getSeconds()} `;
 
-    let currentDate = `${DayNames[today.getDay() - 1]}: ${today.getDate()}  ${monthNames[today.getMonth()]} : ${today.getFullYear()}`;
+    let currentDate = `${DayNames[today.getDay() - 1]} , ${today.getDate()} 
+     ${monthNames[today.getMonth()]}  ${today.getFullYear()}`;
     // console.log(currentDate)
 
 
