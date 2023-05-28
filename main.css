@@ -39,3 +39,28 @@ body {
   color: #fff;
   font-size: 4rem;
 }
+
+@media screen and (max-width: 768px) {
+  #today,
+  #time {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 400;
+  }
+  #date {
+    color: #fff;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  #today,
+  #time {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  #date {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+}
